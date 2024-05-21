@@ -1,0 +1,520 @@
+/*DARKMODE*/
+* {
+  overflow-x: hidden;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+/*END OF DARKMODE*/
+/*NAV SECT*/
+.header {
+  padding-right: 30px;
+  margin-top: 20px;
+}
+.header img {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.header a {
+  margin-top: 40 px;
+  color: grey;
+  font-family: bold;
+  margin-right: 30px;
+}
+.header .dark {
+  position: fixed;
+  background: none;
+  right: 0;
+  margin-right: 20px;
+  top: 0;
+}
+
+/*END OF NAV*/
+/*HERO SECT*/
+.hero {
+  height: 90vh;
+}
+.hero .hero-inner {
+  padding-top: 80px;
+}
+.hero .hero-inner h1 {
+  font-family: bold;
+  font-size: 35px;
+}
+.hero .hero-inner p {
+  margin-top: 30px;
+  font-family: regular;
+}
+.hero .hero-inner #BOne {
+  background-color: purple;
+  font-family: regular;
+  color: white;
+  margin-top: 20px;
+  border: none;
+  padding: 6px;
+  margin-bottom: 20px;
+  margin-right: 55px;
+}
+.hero .hero-inner #BTwo {
+  border-color: purple;
+  color: black;
+  padding: 5px;
+  font-family: regular;
+}
+.hero a {
+  padding: 20px;
+  text-decoration: none;
+}
+.hero #pup {
+  color: purple;
+}
+.hero #bla {
+  color: black;
+}
+.hero .container .inner-hero .hero-img {
+  margin-top: 50px;
+}
+
+.vid-icons {
+  font-family: regular;
+  font-size: 18px;
+}
+.vid-icons ul li {
+  margin-top: 10px;
+  left: 0px;
+}
+
+/*END OF HERO*/
+/*ABOUT SECTION*/
+.about {
+  height: 100vh;
+  margin-bottom: 60px;
+}
+.about h4 {
+  font-family: bold;
+  left: 0;
+}
+.about p {
+  padding-top: 20px;
+  font-family: regular;
+}
+.about #sec {
+  width: 85%;
+}
+.about .about-img1 {
+  width: 250px;
+}
+.about .about-img2 {
+  margin-top: 50px;
+  width: 250px;
+}
+.about .about-img3 {
+  width: 450px;
+}
+.about button {
+  font-family: regular;
+  background-color: purple;
+  padding: 6px;
+  color: white;
+  border: none;
+  margin-top: 15px;
+}
+.about #abt1 {
+  width: 45%;
+  height: 55vh;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+.about #abt2 {
+  width: 45%;
+  height: 55vh;
+  margin-top: 90px;
+}
+.about #vid {
+  height: 60vh;
+  width: 80%;
+}
+.about .video-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 80%;
+  overflow: hidden;
+}
+.about .video-container iframe {
+  position: absolute;
+  border: solid 1px;
+}
+
+/*END OF ABOUT SECTION*/
+/*SERVICES SECTION*/
+#services {
+  margin-bottom: 50px;
+}
+#services h4 {
+  padding-left: 70px;
+  font-family: bold;
+}
+#services .card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#services .card {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  margin: 0px 10px;
+}
+#services #top {
+  margin-top: 5px;
+}
+#services .card-body {
+  font-family: regular;
+}
+#services .card-body li {
+  margin-top: 15px;
+}
+#services .card-body li:hover {
+  text-underline-position: below;
+}
+#services .card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#services .overlay2 h3 {
+  text-align: center;
+  font-family: bold;
+  font-size: 20px;
+  color: white;
+  font-family: bold;
+  bottom: 0;
+  margin-top: 550px;
+}
+#services .overlay2 p {
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  bottom: 0;
+  font-family: regular;
+}
+#services .overlay2 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.358);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+#services .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: purple;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  color: white;
+}
+#services ul {
+  list-style-type: circle;
+  margin: 20px;
+}
+#services .overlay h2 {
+  font-family: bold;
+  text-align: left;
+  font-size: 18px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+#services .overlay p {
+  margin: 20px;
+}
+#services .overlay h4 {
+  font-size: 20px;
+  font-family: bold;
+  margin-left: 10px;
+}
+#services .card:hover .overlay {
+  height: 100%;
+}
+#services .overlay h5 {
+  font-family: light;
+  font-size: 15px;
+}
+#services span {
+  margin-left: 120px;
+}
+#services #top {
+  display: flex;
+}
+#services #heart {
+  width: 50px;
+  height: 50px;
+  top: 0;
+  margin-left: 50px;
+}
+#services .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*END OF SERVICES SECTION*/
+/*TESTIMONIALS SECTION*/
+#testimonials h4 {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  font-family: bold;
+}
+#testimonials h6 {
+  font-family: bold;
+}
+#testimonials p {
+  font-family: regular;
+}
+#testimonials .container .container-inner .img-fluid {
+  width: 400px;
+  margin-bottom: 15px;
+}
+#testimonials .container .container-inner2 {
+  margin-top: 40px;
+}
+#testimonials .container .container-inner2 .img-fluid {
+  width: 400px;
+  margin-bottom: 15px;
+}
+
+/*END OF TESTIMONIALS SECTION*/
+/*AS SEEN SECTION*/
+#as-seen {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#as-seen h4 {
+  font-family: bold;
+}
+#as-seen .ig {
+  font-size: 28px;
+  font-family: thinner;
+  font-weight: 600;
+}
+#as-seen .container {
+  padding-top: 50px;
+}
+#as-seen .container .as-seen-img {
+  margin-top: 70px;
+}
+#as-seen h5 {
+  margin-top: 50px;
+  font-family: bold;
+}
+#as-seen button {
+  background-color: rgb(178, 26, 195);
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+/*END OF AS SEEN SECTION*/
+/*FOOTER SECTION*/
+footer {
+  padding: 3% 0;
+  background-color: purple;
+  color: rgb(255, 255, 255);
+}
+footer .logo {
+  width: 100px;
+}
+footer p {
+  font-family: regular;
+  margin-top: 20px;
+  font-size: 15px;
+}
+footer h5 {
+  font-family: bold;
+}
+footer img {
+  width: 15px;
+  margin-right: 20px;
+}
+
+/*END OF FOOTER SECTION*/
+/*MEDIA QUIERIES*/
+@media (max-width: 568px) {
+  .hero {
+    height: auto;
+  }
+  .hero .container .inner-hero {
+    margin-bottom: 50px;
+  }
+  .hero .container .inner-hero .hero-img {
+    margin-top: 0;
+  }
+  .hero .container .inner-hero img {
+    width: 200px;
+    height: 400px;
+  }
+  .about {
+    height: auto;
+  }
+  .about .container .row .video-container {
+    margin-top: 50px;
+    height: auto;
+    width: auto;
+  }
+  #services {
+    height: auto;
+  }
+  #services h4 {
+    margin-right: 50px;
+  }
+  #services .card-container {
+    margin-top: 50px;
+  }
+}
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .hero {
+    height: auto;
+  }
+  .hero-inner {
+    padding-top: 50px;
+  }
+  .hero-inner h1 {
+    font-size: 25px;
+  }
+  .hero-inner p {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .hero-inner #BOne, .hero-inner #BTwo {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 35px;
+  }
+  .vid-icons {
+    font-size: 14px;
+  }
+  .about {
+    height: auto;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .about-img1,
+  .about-img2 {
+    width: 200px;
+  }
+  .video-container {
+    padding-bottom: 60%;
+  }
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+  button {
+    font-size: 14px;
+  }
+}
+@media only screen and (device-width: 1024px) and (device-height: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  .about {
+    height: auto;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .about-img1,
+  .about-img2 {
+    width: 250px;
+  }
+  .video-container {
+    padding-bottom: 80%;
+  }
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+  button {
+    font-size: 16px;
+  }
+  #services h4 {
+    padding-left: 20px;
+  }
+  #services .card {
+    width: 250px;
+    height: 400px;
+  }
+  #services .overlay2 h3 {
+    font-size: 16px;
+    margin-top: 420px;
+  }
+  #services .overlay2 p {
+    font-size: 8px;
+  }
+  #services .overlay h2 {
+    font-size: 16px;
+  }
+  #services .overlay p {
+    margin: 10px;
+  }
+  #services .overlay h4 {
+    font-size: 18px;
+  }
+  #services .card:hover .overlay {
+    height: 100%;
+  }
+}
+#testimonials h4 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+#testimonials .container-inner .img-fluid,
+#testimonials .container-inner2 .img-fluid {
+  width: 300px;
+}
+#testimonials #as-seen h4 {
+  font-size: 18px;
+}
+#testimonials #as-seen .ig {
+  font-size: 20px;
+}
+#testimonials #as-seen .container .as-seen-img {
+  margin-top: 50px;
+}
+#testimonials #as-seen h5 {
+  margin-top: 30px;
+  font-size: 16px;
+}
+#testimonials #as-seen button {
+  font-size: 14px;
+  padding: 10px 20px;
+}
+#testimonials footer .logo {
+  width: 80px;
+}
+#testimonials footer p {
+  font-size: 13px;
+}
+#testimonials footer h5 {
+  font-size: 14px;
+}
+#testimonials footer img {
+  width: 12px;
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */
